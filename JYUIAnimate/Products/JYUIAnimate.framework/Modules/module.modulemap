@@ -1,0 +1,6 @@
+framework module JYUIAnimate {
+  umbrella header "JYUIAnimate.h"
+
+  export *
+  module * { export * }
+}
