@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46573D341DE488E700595854 /* JYUIAnimate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46573D321DE488E700595854 /* JYUIAnimate.framework */; };
-		46573D371DE4891C00595854 /* JYUIAnimate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 46573D321DE488E700595854 /* JYUIAnimate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		46573D381DE489B700595854 /* JYUIAnimate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 46573D331DE488E700595854 /* JYUIAnimate.bundle */; };
 		468B51221DE4739600022BF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 468B51211DE4739600022BF9 /* main.m */; };
 		468B51251DE4739600022BF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 468B51241DE4739600022BF9 /* AppDelegate.m */; };
 		468B51281DE4739600022BF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468B51271DE4739600022BF9 /* ViewController.m */; };
@@ -18,6 +15,9 @@
 		468B51301DE4739600022BF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468B512E1DE4739600022BF9 /* LaunchScreen.storyboard */; };
 		468B513B1DE4739600022BF9 /* JYUIAnimateAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 468B513A1DE4739600022BF9 /* JYUIAnimateAppTests.m */; };
 		468B51461DE4739600022BF9 /* JYUIAnimateAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 468B51451DE4739600022BF9 /* JYUIAnimateAppUITests.m */; };
+		46D529061E0A922D0035391D /* JYUIAnimate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D529041E0A922D0035391D /* JYUIAnimate.framework */; };
+		46D529071E0A922D0035391D /* JYUIAnimate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 46D529051E0A922D0035391D /* JYUIAnimate.bundle */; };
+		46D529081E0A92340035391D /* JYUIAnimate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 46D529041E0A922D0035391D /* JYUIAnimate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				46573D371DE4891C00595854 /* JYUIAnimate.framework in Embed Frameworks */,
+				46D529081E0A92340035391D /* JYUIAnimate.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,8 +52,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		46573D321DE488E700595854 /* JYUIAnimate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JYUIAnimate.framework; sourceTree = "<group>"; };
-		46573D331DE488E700595854 /* JYUIAnimate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JYUIAnimate.bundle; sourceTree = "<group>"; };
 		468B511D1DE4739600022BF9 /* JYUIAnimateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYUIAnimateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		468B51211DE4739600022BF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		468B51231DE4739600022BF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,6 +68,8 @@
 		468B51411DE4739600022BF9 /* JYUIAnimateAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYUIAnimateAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		468B51451DE4739600022BF9 /* JYUIAnimateAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYUIAnimateAppUITests.m; sourceTree = "<group>"; };
 		468B51471DE4739600022BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D529041E0A922D0035391D /* JYUIAnimate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JYUIAnimate.framework; sourceTree = "<group>"; };
+		46D529051E0A922D0035391D /* JYUIAnimate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JYUIAnimate.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46573D341DE488E700595854 /* JYUIAnimate.framework in Frameworks */,
+				46D529061E0A922D0035391D /* JYUIAnimate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,8 +101,8 @@
 		46573D311DE488DA00595854 /* framework */ = {
 			isa = PBXGroup;
 			children = (
-				46573D321DE488E700595854 /* JYUIAnimate.framework */,
-				46573D331DE488E700595854 /* JYUIAnimate.bundle */,
+				46D529041E0A922D0035391D /* JYUIAnimate.framework */,
+				46D529051E0A922D0035391D /* JYUIAnimate.bundle */,
 			);
 			name = framework;
 			sourceTree = "<group>";
@@ -282,7 +282,7 @@
 			files = (
 				468B51301DE4739600022BF9 /* LaunchScreen.storyboard in Resources */,
 				468B512D1DE4739600022BF9 /* Assets.xcassets in Resources */,
-				46573D381DE489B700595854 /* JYUIAnimate.bundle in Resources */,
+				46D529071E0A922D0035391D /* JYUIAnimate.bundle in Resources */,
 				468B512B1DE4739600022BF9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
