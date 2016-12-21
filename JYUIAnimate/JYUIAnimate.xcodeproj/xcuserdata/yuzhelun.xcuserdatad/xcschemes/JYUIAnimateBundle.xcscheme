@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "46573D211DE481DB00595854"
-               BuildableName = "JYUIAnimateBundle.bundle"
+               BuildableName = "JYUIAnimate.bundle"
                BlueprintName = "JYUIAnimateBundle"
                ReferencedContainer = "container:JYUIAnimate.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "46573D211DE481DB00595854"
-            BuildableName = "JYUIAnimateBundle.bundle"
+            BuildableName = "JYUIAnimate.bundle"
             BlueprintName = "JYUIAnimateBundle"
             ReferencedContainer = "container:JYUIAnimate.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "46573D211DE481DB00595854"
-            BuildableName = "JYUIAnimateBundle.bundle"
+            BuildableName = "JYUIAnimate.bundle"
             BlueprintName = "JYUIAnimateBundle"
             ReferencedContainer = "container:JYUIAnimate.xcodeproj">
          </BuildableReference>

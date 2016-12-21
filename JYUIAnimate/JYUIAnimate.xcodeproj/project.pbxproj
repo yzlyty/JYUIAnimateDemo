@@ -387,6 +387,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = NO;
 				DEVELOPMENT_TEAM = PS6YUTY3PG;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = JYUIAnimateBundle/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
@@ -403,6 +404,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = NO;
 				DEVELOPMENT_TEAM = PS6YUTY3PG;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = JYUIAnimateBundle/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
@@ -438,7 +440,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -561,6 +563,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = PS6YUTY3PG;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = JYUIAnimateTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.julie.JYUIAnimateTests;
@@ -578,6 +581,7 @@
 				46573D151DE47EA900595854 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46573D251DE481DB00595854 /* Build configuration list for PBXNativeTarget "JYUIAnimateBundle" */ = {
 			isa = XCConfigurationList;
@@ -586,6 +590,7 @@
 				46573D271DE481DB00595854 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		468B50EA1DE4647100022BF9 /* Build configuration list for PBXProject "JYUIAnimate" */ = {
 			isa = XCConfigurationList;
